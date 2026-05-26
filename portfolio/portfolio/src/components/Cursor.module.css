@@ -1,0 +1,25 @@
+.cursor {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  background: var(--cyan);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99999;
+  transform: translate(-50%, -50%);
+  transition: transform 0.08s ease, width 0.2s, height 0.2s;
+  box-shadow: 0 0 16px var(--cyan), 0 0 40px rgba(0, 245, 255, 0.4);
+  mix-blend-mode: screen;
+}
+
+.ring {
+  position: fixed;
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgba(0, 245, 255, 0.35);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99998;
+  transform: translate(-50%, -50%);
+  transition: all 0.14s ease;
+}

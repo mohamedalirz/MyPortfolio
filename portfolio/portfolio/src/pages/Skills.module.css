@@ -1,0 +1,68 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.cat {
+  padding: 2rem;
+  background: var(--glass);
+  border: 1px solid var(--border);
+  transition: all 0.3s ease;
+}
+
+.cat:hover {
+  border-color: rgba(0, 245, 255, 0.25);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 245, 255, 0.05);
+}
+
+.catHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1.8rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.catIcon { font-size: 1.2rem; }
+
+.catTitle {
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  letter-spacing: 2.5px;
+  color: var(--cyan);
+  text-transform: uppercase;
+}
+
+.skillRow { margin-bottom: 1.1rem; }
+
+.skillMeta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+}
+
+.skillName { font-size: 0.85rem; color: var(--text); }
+.skillPct { font-family: var(--font-code); font-size: 0.75rem; color: var(--cyan); }
+
+.barTrack {
+  height: 2px;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.barFill {
+  height: 100%;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--cyan), var(--blue));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 1.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (max-width: 600px) {
+  .grid { grid-template-columns: 1fr; }
+}
