@@ -11,7 +11,7 @@ export default function Loader() {
 
   return (
     <div className={`${styles.loader} ${hidden ? styles.hidden : ''}`}>
-      <div className={styles.logo}>DEV.MATRIX</div>
+      <div className={styles.logo}>Mohamed Ali.Rzeygui</div>
       <div className={styles.sub}>Initializing Systems</div>
       <div className={styles.progress}>
         <div className={styles.bar} />
