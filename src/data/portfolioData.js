@@ -35,8 +35,8 @@ export const projects = [
 ];
 
 export const heroStats = [
-  { id: 'cnt-projects', target: 50, suffix: '+', label: 'Projects Built', value: projects.length },
-  { id: 'cnt-tech', target: 18, suffix: '+', label: 'Technologies', value: techStack.length },
+  { id: 'cnt-projects', target: projects.length, suffix: '+', label: 'Projects Built', value: projects.length },
+  { id: 'cnt-tech', target: value: techStack.length, suffix: '+', label: 'Technologies', value: techStack.length },
   { id: 'cnt-infinity', value: '∞', label: 'Performance' },
 ];
 
