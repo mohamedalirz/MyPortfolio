@@ -22,6 +22,17 @@ export const techStack = [
 
 export const projects = [
   {
+  "number": "01 / 07",
+  "badge": "Task Management · Fullstack",
+  "name": "TaskFlow - Advanced Task Management System",
+  "desc": "Complete task management platform similar to Trello with workspaces, boards, lists, tasks, drag-and-drop functionality, real-time updates, user authentication, team collaboration, task assignments, due dates, priority levels, comments, notifications, and a beautiful modern UI with Tailwind CSS.",
+  "tags": ["React", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS", "React Router", "Axios"],
+  "image": "https://res.cloudinary.com/dyuurossx/image/upload/v1779874456/Capture_d_%C3%A9cran_2026-05-27_102908_snh1lw.png",
+  "videoSrc": "https://www.youtube.com/embed/YOUR_VIDEO_ID",
+  "liveUrl": "https://your-taskflow.vercel.app",
+  "githubUrl": "https://github.com/yourusername/taskflow.git"
+},
+  {
   number: "02 / 07",
   badge: "E-Commerce · Fullstack",
   name: "Ultra-Premium eCommerce Platform",
