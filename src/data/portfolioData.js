@@ -30,7 +30,7 @@ export const projects = [
   "image": "https://res.cloudinary.com/dyuurossx/image/upload/v1779874456/Capture_d_%C3%A9cran_2026-05-27_102908_snh1lw.png",
   "videoSrc": "https://www.youtube.com/embed/YOUR_VIDEO_ID",
   "liveUrl": "https://your-taskflow.vercel.app",
-  "githubUrl": "https://github.com/yourusername/taskflow.git"
+  "githubUrl": "https://github.com/mohamedalirz/TaskManager"
 },
   {
   number: "02 / 07",
