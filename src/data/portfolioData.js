@@ -42,6 +42,17 @@ export const projects = [
   videoSrc: "https://www.youtube.com/embed/YOUR_VIDEO_ID",
   liveUrl: "https://your-ecommerce.vercel.app",
   githubUrl: "https://github.com/mohamedalirz/ultra-premium-ecommerce.git"
+},
+  {
+  number: "03 / 07",
+  badge: "Cybersecurity · Fullstack",
+  name: "CyberSentinel - Security Scanner Platform",
+  desc: "A modern cybersecurity & pentesting web application that scans websites for security vulnerabilities, analyzes security headers, detects XSS and SQL injection flaws, performs port scanning, and provides detailed risk assessments with a beautiful dark theme dashboard.",
+  tags: ["React", "Flask", "Python", "Tailwind CSS", "Axios", "REST API", "Socket Programming", "Security Testing"],
+  image: "https://res.cloudinary.com/dyuurossx/image/upload/v1779878481/Capture_d_%C3%A9cran_2026-05-27_113608_ghwuq1.png",
+  videoSrc: "https://www.youtube.com/embed/YOUR_VIDEO_ID",
+  liveUrl: "https://cybersentinel.vercel.app",
+  githubUrl: "https://github.com/mohamedalirz/-CyberSentinel",
 }
 ];
 
