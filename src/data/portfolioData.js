@@ -180,8 +180,8 @@ export const contactInfo = {
   heading: 'Ready to Build?',
   desc: "I work with elite clients, startups, and enterprises to build systems that matter. Whether it's an AI platform, a cybersecurity tool, or a full SaaS product — let's make it extraordinary.",
   socials: [
-    { icon: '✉', tag: 'Email', val: 'developer@matrix.dev', href: 'mailto:developer@matrix.dev' },
-    { icon: '◈', tag: 'GitHub', val: 'github.com/devmatrix', href: 'https://github.com' },
-    { icon: '◉', tag: 'LinkedIn', val: 'linkedin.com/in/devmatrix', href: 'https://linkedin.com' },
+    { icon: '✉', tag: 'Email', val: 'mohammedalirzeygui@gmail.com', href: 'mailto:mohammedalirzeygui@gmail.com' },
+    { icon: '◈', tag: 'GitHub', val: 'github.com/mohamedalirz', href: 'https://github.com/mohamedalirz' },
+    { icon: '◉', tag: 'LinkedIn', val: 'linkedin.com/in/mohamed-ali-rzeygui', href: 'https://www.linkedin.com/in/mohamed-ali-rzeygui-38b76a317/' },
   ],
 };
