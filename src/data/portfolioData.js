@@ -53,6 +53,17 @@ export const projects = [
   videoSrc: "https://www.youtube.com/embed/YOUR_VIDEO_ID",
   liveUrl: "https://cybersentinel.vercel.app",
   githubUrl: "https://github.com/mohamedalirz/-CyberSentinel",
+},
+  {
+  "number": "04 / 07",
+  "badge": "Finance · Fullstack",
+  "name": "GyMoney - Personal Finance Management Platform",
+  "desc": "A comprehensive personal finance management application built with Spring Boot and React that helps users track income, expenses, budgets, and savings goals. Features include transaction categorization, financial analytics, budget planning, expense tracking, and interactive dashboards with beautiful data visualization.",
+  "tags": ["React", "Spring Boot", "Java", "MySQL", "JPA/Hibernate", "Spring Security", "JWT", "Maven", "Tailwind CSS"],
+  "image": "https://res.cloudinary.com/dyuurossx/image/upload/q_auto/f_auto/v1780011261/Capture_d_%C3%A9cran_2026-05-29_003018_qrqbag.png",
+  "videoSrc": "https://www.youtube.com/embed/YOUR_VIDEO_ID",
+  "liveUrl": "https://gymoney.vercel.app",
+  "githubUrl": "https://github.com/mohamedalirz/GyMoney"
 }
 ];
 
