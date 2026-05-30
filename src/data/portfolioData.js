@@ -64,6 +64,17 @@ export const projects = [
   "videoSrc": "https://www.youtube.com/embed/YOUR_VIDEO_ID",
   "liveUrl": "https://gymoney.vercel.app",
   "githubUrl": "https://github.com/mohamedalirz/GyMoney"
+},
+  {
+  "number": "05 / 07",
+  "badge": "Transport · Fullstack",
+  "name": "TrainOps - Railway Management Platform",
+  "desc": "A comprehensive railway management application built with Spring Boot and React that helps manage train schedules, ticket bookings, user payments, and real-time tracking. Features include train management, ticket purchasing, payment processing with multiple methods, user authentication, QR code validation, and interactive dashboards with real-time analytics.",
+  "tags": ["React", "Spring Boot", "Java", "MySQL", "JPA/Hibernate", "Spring Security", "JWT", "Maven", "Tailwind CSS", "Axios", "Framer Motion"],
+  "image": "https://res.cloudinary.com/dyuurossx/image/upload/q_auto/f_auto/v1780125927/Capture_d_%C3%A9cran_2026-05-30_080437_sk0zvg.png",
+  "videoSrc": "https://www.youtube.com/embed/YOUR_VIDEO_ID",
+  "liveUrl": "https://trainops.vercel.app",
+  "githubUrl": "https://github.com/mohamedalirz/TrainOps"
 }
 ];
 
